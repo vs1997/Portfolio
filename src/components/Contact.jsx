@@ -2,20 +2,25 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div class='contact-me'>
-      <h2>Get In Touch</h2>
-      <h3>
-        It would be my pleasure, if I able to get any opportunity to work with
-        You.
-      </h3>
-      <p class='contact-msg'>
-        Please let me know, if requirement match with my experience.
-      </p>
-      <a class='btn' href='mailto:varuns015@gmail.com'>
-        CONTACT ME
-      </a>
-    </div>
+    <>
+      {/* <div className='line' /> */}
+      <div className='contact-me'>
+        <div className='outline_text white project d-none d-lg-block'>
+          LET'S TALK
+        </div>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-xl-12'>
+              <h3 className='contact-msg'>Let's start your project with me</h3>
+              <a className='btn' href='mailto:rempire230@gmail.com'>
+                CONTACT ME
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
-
+// Let’s start your project with us
 export default Contact;

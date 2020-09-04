@@ -3,26 +3,20 @@ import React from 'react';
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <div class='footer'>
+    <div className='footer'>
       <a
-        class='footer-link'
+        className='footer-link'
         href='https://www.linkedin.com/in/varun-kumar-44717a155/'
       >
         LinkedIn
       </a>
-      <a
-        class='footer-link'
-        href='https://www.linkedin.com/in/varun-kumar-44717a155/'
-      >
-        Twitter
+      <a className='footer-link' href='https://github.com/vs1997'>
+        GitHub
       </a>
-      <a
-        class='footer-link'
-        href='https://www.linkedin.com/in/varun-kumar-44717a155/'
-      >
-        Web Site
+      <a className='footer-link' href='https://vs1997.github.io/My-Site/'>
+        My Site
       </a>
-      <p class='copyright'>copyright satuday developer © {year}</p>
+      <p className='copyright'>copyright satuday developer © {year}</p>
     </div>
   );
 }
