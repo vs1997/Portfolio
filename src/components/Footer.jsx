@@ -6,15 +6,15 @@ function Footer() {
     <div className='footer'>
       <a
         className='footer-link'
-        href='https://www.linkedin.com/in/varun-kumar-44717a155/'
+        href='https:https://www.linkedin.com/in/sagar-tyagi-309583154/'
       >
         LinkedIn
       </a>
-      <a className='footer-link' href='https://github.com/vs1997'>
+      <a className='footer-link' href='https://github.com/Saturday-Developer'>
         GitHub
       </a>
-      <a className='footer-link' href='https://vs1997.github.io/My-Site/'>
-        My Site
+      <a className='footer-link' href='https://www.youtube.com/channel/UCuBIeb1gr815Yap1O1sNUyw'>
+        YouTube
       </a>
       <p className='copyright'>copyright satuday developer © {year}</p>
     </div>
