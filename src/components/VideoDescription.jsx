@@ -3,31 +3,31 @@ const carouselnonactive = [
     id: 1,
     url: 'videos/To_DO_List.mp4',
     active: true,
-    title: 'TO-DO LIST',
+    title: 'To do list',
     description:
-      'Your skills of writing Paragraph will make you a perfect man.If you look at any printed prose book, you will see that each chapter is divided up into sections, the first line of each being indented slightly to the right. These sections are called Paragraph. Chapters, essays and other prose compositions are broken up into paragraphs, to make the reading of them easier.',
+      'This app help user to remind his work list on daily basis. Also he can filter his work e.g :- Office Work, Home-Work, Shopping etc. For now, I had add filter for office and shopping only. User can create list of task on which he has to work, at time of creation date should be appear by default, so that user can remind on which date task has been created. When the task completed, user can simply mark that as completed and a cross line will appear at that task.',
   },
 
   {
     id: 2,
     url: 'videos/Chat_App_Video.mp4',
-    title: 'CHAT APP ',
+    title: 'Chat App Using React Native, Hooks, Context API  and Firebase Real Time Database',
     description:
-      'The first and most important principle to be observed in constructing a paragraph is that of UNITY.Just as each sentence deals with one thought, each paragraph must deal with one topic or idea – and with no more than one. In writing an essay, for example, every head, and every sub-head, should have its own paragraph to itself. And every sentence in the paragraph must be closely connected with the main topic of the paragraph. The paragraph and every part of it must be the expression of one theme or topic.',
+      'It is a real time chat app using React-Native and Firebase. By using this user can send message to each other and it will reflect to end user instantly. Also user can share the photo among them. For user’s profile picture, by default first character of user’s name will appear. User can update his profile picture whenever he want.',
   },
   {
     id: 3,
     url: 'videos/Dev_Connector.mp4',
-    title: 'DEV CONNECTOR',
+    title: 'Lost World',
     description:
-      'The Road is one of the great fundamental institutions of mankind. Not only is the Road one of the great human institutions because it is fundamental to social existence, but also because its varied effects appear in every department of the State. It is the Road which determines the sites of many cities and the growth and nourishment of all. It is the Road which controls the development of strategies and fixes the sites of battles. It is the Road that gives its framework to all economic development. It is the Road which is the channel of all trade, and, what is more important, of al ideas. In its most humble function it is a necessary guide without which progress from place to place would be a ceaseless experiment; it is a sustenance without which organized society would be impossible, thus the Road moves and controls all history. – Hilaire Belloc.',
+      'It is a platform (specially for developers) where user can able to look profile on another developer. He can check the repository ( public repo only ) of another developers and check stars and fork on them. As per willing he can get the source. Also, he can like, comment and dislike on the post. A user can create his profile by add his education and experience  details. Also he can provide his social-media profile links, that will appear on his profile.',
   },
   {
     id: 4,
     url: 'videos/FB_Clone.mp4',
-    title: 'FB CLONE',
+    title: 'Clone Facebook UI',
     description:
-      'Hence it is that is almost a definition of a gentleman to say he is one who never inflicts pain. This description is both refined and, as far as it goes, accurate. He is mainly occupied in merely removing the obstacles which hinder the free and unembarrassed action of those about him; and he concurs with their movements rather than takes the initiative himself. His benefits may be considered a parallel to what are called comforts or conveniences in arrangements of a personal nature, like an easy chair or a good fire, which do their part in dispelling cold and fatigue, though nature provides both means of rest and animal heat without them. - J.E. Newman.',
+      ' I had cloned Facebook UI using React-Native. I had used Native-Base for Design and Vector-Icons for icons. Also I had used stack navigation and material top navigation for navigation.',
   },
 ];
 
