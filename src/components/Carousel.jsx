@@ -33,7 +33,7 @@ function Carousel() {
                 })
               }
             >
-              <Link to='ourprojects'>
+              <Link to='opensourcework'>
                 <ReactPlayer
                   className='react-Player'
                   controls={true}
