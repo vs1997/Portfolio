@@ -17,22 +17,13 @@ function App() {
         <div>
           <Header />
           <Route path='/' exact component={Carousel}></Route>
-          {/* <Carousel url={carouselactive[0].url} />
-          {carouselnonactive.map((url) => (
-            <Carousel key={url.id} url={url.url} />
-          ))} */}
+         
           <Route path='/' exact component={About}></Route>
 
-          <Route path='/ourprojects' exact component={OurProjects}></Route>
+          <Route path='/opensourcework' exact component={OurProjects}></Route>
           {/* <OurServices /> */}
           <Route path='' exact component={Contact}></Route>
           <Footer />
-
-          {/*<About />
-        <OurProjects />
-        
-        <Contact />
-        <Footer />*/}
         </div>
       </BrowserRouter>
     </StoreProvider>
